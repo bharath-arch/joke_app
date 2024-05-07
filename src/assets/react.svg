@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Yellow face -->
+  <circle fill="#FFCC00" cx="256" cy="256" r="256"/>
+  <!-- Eyes -->
+  <circle fill="#40270E" cx="170" cy="200" r="40"/>
+  <circle fill="#40270E" cx="342" cy="200" r="40"/>
+  <!-- Smile -->
+  <path fill="#40270E" d="M150 340c56-28 156-28 212 0"/>
+</svg>
