@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Spinner from "./component/Spinner";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const [data, setData] = useState(null);
@@ -57,6 +58,8 @@ function App() {
           </button>
         </div>
       </div>
+      <Analytics/>
+
     </section>
   );
 }
